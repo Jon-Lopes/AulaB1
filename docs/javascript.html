@@ -1,83 +1,101 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <!-- Área não visual-->
-    <head>
-        <title>Aulas de Frontend</title>
-        <meta charset="UTF-8" />
-        <meta name="keywords" content="aulas de css,aulas de javascript,aulas de front end" />
-        <meta name="description" content="Venha fazer a formação FullStack" />
-        <link rel="stylesheet" href="../css/estilo.css" type="text/css">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    </head>
-    <style>
-        h1{
-            color:red;
-        }
-        h2{
-            color:green;
-        }
-        p{
-            line-height:1.4em;
-        }
-    </style>
-    <!-- Área de Conteúdo -->
-    <body>
-        <header>
-            <p>São Paulo, 23 de Agosto de 2021</p>
-            <div>
-                <img src="../imagens/logo.png" />
-            </div>
-        </header>
-        <nav>
-            <div class="hb"></div>
-            <ul>
-                <li><a href="../index.html">home</a></li>
-                <li><a href="imagens.html">imagens</a></li>
-                <li><a href="tabelas.html">tabelas</a></li>
-                <li><a href="iframe.html">iframe</a></li>
-                <li><a class="marcador">javascript</a></li>
-                <li><a href="jquery.html">jquery</a></li>
-                <li><a href="bootstrap.html">bootstrap</a></li>
-                <li><a href="responsividade.html">responsividade</a></li>
-                <li><a href="localstorage.html">local storage</a></li>
-                <li><a href="animacao.html">animacao</a></li>
-                <li><a href="formularios.html">formularios</a></li>
-            </ul>
-        </nav>
-        <div id="conteudo">
-            <section>
-                <h1 class="titulo" style="color: blue;">AprendendO sobre javascript
+<!-- Área não visual-->
+
+<head>
+    <title>Aulas de Frontend</title>
+    <meta charset="UTF-8" />
+    <meta name="keywords" content="aulas de css,aulas de javascript,aulas de front end" />
+    <meta name="description" content="Venha fazer a formação FullStack" />
+    <link rel="stylesheet" href="../css/estilo.css" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<style>
+    h1 {
+        color: red;
+    }
+
+    h2 {
+        color: green;
+    }
+
+    p {
+        line-height: 1.4em;
+    }
+</style>
+<!-- Área de Conteúdo -->
+
+<body>
+    <header>
+        <p>São Paulo, 23 de Agosto de 2021</p>
+        <span id="semana"></span>
+        <div>
+            <img src="../imagens/logo.png" />
+        </div>
+    </header>
+    <nav>
+        <div class="hb"></div>
+        <ul>
+            <li><a href="../index.html">home</a></li>
+            <li><a href="imagens.html">imagens</a></li>
+            <li><a href="tabelas.html">tabelas</a></li>
+            <li><a href="iframe.html">iframe</a></li>
+            <li><a class="marcador">javascript</a></li>
+            <li><a href="jquery.html">jquery</a></li>
+            <li><a href="bootstrap.html">bootstrap</a></li>
+            <li><a href="responsividade.html">responsividade</a></li>
+            <li><a href="localstorage.html">local storage</a></li>
+            <li><a href="animacao.html">animacao</a></li>
+            <li><a href="formularios.html">formularios</a></li>
+        </ul>
+    </nav>
+    <div id="conteudo">
+        <section>
+            <h1 class="titulo" style="color: blue;">AprendendO sobre javascript
                 <div id="msgJs01">
                     <p>A linguagem Javascript é padronizada com base no ECMAScript </p>
+
                     <button class="btn">Clque para fechar</button>
                 </div>
-                </h1>
+            </h1>
 
-                               
-                <div class="boxJs01 w-75 mx-auto">
-                    <img class="foto1 w-25" src="../imagens/misc/clown.png" />
-                    <img class="foto2 w-25" src="../imagens/misc/clown.png" />
-                    <img class="foto3 w-25" src="../imagens/misc/clown.png" />
+
+            <div class="boxJs01 w-75 mx-auto">
+                <img class="foto1 w-25" src="../imagens/misc/clown.png" />
+                <img class="foto2 w-25" src="../imagens/misc/clown.png" />
+                <img class="foto3 w-25" src="../imagens/misc/clown.png" />
+            </div>
+
+            <h2>Exemplo 02</h2>
+            <div class="boxJs02 w-75 mx-auto">
+                <div class="boxBt02 w-25">
+                    <button id="btbr" class="btn">Brasil</button>
+                    <button id="bteua" class="btn">EUA</button>
+                    <button id="btfr" class="btn">França</button>
+                    <button id="btjp" class="btn">Japão</button>
+                </div>
+                <div class="boxImg02 w-75">
+                    <img src='' class="w-75" />
                 </div>
                 <article>
                     <h2></h2>
                 </article>
-            </section>
-        </div>
-        <footer>
-           <p>
-               &copy;2021 - Todos os direitos reservados.
-          </p>
-        </footer>
-    </body>
+        </section>
+    </div>
+    <footer>
+        <p>
+            &copy;2021 - Todos os direitos reservados.
+        </p>
+    </footer>
+</body>
 
-    <script src="../js/controle.js" type="text/javascript"></script>
-    <script>
+<script src="../js/controle.js" type="text/javascript"></script>
+<script>
         //alert('Bora aprender!');
         //confirm('Vamos ate la?');
         //console.log(typeof('quarta-feira'));
 
-        
+
         //titulo.textContent='Desenvolvendo JS';
         //titulo.style.color='red';
         //titulo.style.cursor='pointer';
@@ -87,5 +105,6 @@
         //foto1.style.width='20%';
         //foto1.classList.add("hide");
         //quand  
-    </script>
+</script>
+
 </html>
